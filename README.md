@@ -11,6 +11,12 @@
   - Automated Build: Build and compile the project with a Makefile for easier management.
   - Client Retry Mechanism: Reconnect attempts for failed client-server communication, ensuring resilience.
   - IP & Port Validation: Ensures correct server IP and port before initiating connections.
+
+## Installation
+1. git clone
+2. cd multi-threaded-client-server-cpp
+3. make
+   
 ## How It Works
 Components:
 - SocketConnect: Handles socket creation and connection with input validation.
@@ -21,8 +27,13 @@ Components:
 - Main: Entry point to initialize the client or server.
 - Makefile: Automates the build and compilation process.
 Workflow:
->Client Initiates Connection: The client connects to the server using the IP and port; retries if connection fails.
->Server Listens: Server listens for incoming connections and handles multiple clients using a thread pool.
->Data Transfer: The client sends text or files to the server via DataTransfer.
->Reliable Communication: Ensures proper connection with input validation and retry mechanism.
+> - Client Initiates Connection: The client connects to the server using the IP and port; retries if connection fails.
+> - Server Listens: Server listens for incoming connections and handles multiple clients using a thread pool.
+> - Data Transfer: The client sends text or files to the server via DataTransfer.
+> - Reliable Communication: Ensures proper connection with input validation and retry mechanism.
+
+
+![image](https://github.com/user-attachments/assets/7b3cbff4-3a21-4118-b76b-70c769871810)
+
+
 
